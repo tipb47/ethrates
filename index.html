@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>eth rates</title>
+  <meta name="description" content="Get estimated values of common real world assets priced in Ethereum.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="content-wrapper">
+        <a href="https://ethrates.net" class="main-link">ethrates.net</a>
+      
+        <div class="prices-container">
+          <div id="ethPrice">Loading Ethereum price...</div>
+          <div id="ethChange">Loading 24h Change...</div>
+        </div>
+    </div>
+
+    <table id="productTable">
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th>Price (USD)</th>
+            <th>Price (ETH)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://direct.playstation.com/en-us/buy-consoles/playstation5-console-model-group-slim">PS5</a> / <a href="https://www.xbox.com/en-US/consoles/xbox-series-x?xr=shellnav">Xbox Series X</a></td>
+            <td>$500</td>
+            <td class="ethPrice">Loading...</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.apple.com/shop/buy-iphone/iphone-15-pro/6.7-inch-display-256gb-natural-titanium-unlocked">iPhone 15 Pro Max 256GB</a></td>
+            <td>$1,200</td>
+            <td class="ethPrice">Loading...</td>
+          </tr>
+          <tr>
+            <td><a href="https://store.nvidia.com/en-us/geforce/store/?page=1&limit=9&locale=en-us&search=4090">RTX 4090 Founders Edition</a></td>
+            <td>$1,600</td>
+            <td class="ethPrice">Loading...</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-space-black-apple-m3-max-with-16-core-cpu-and-40-core-gpu-48gb-memory-1tb">16-Inch MacBook Pro, M3 Max Chip</a></td>
+            <td>$4,000</td>
+            <td class="ethPrice">Loading...</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.rolex.com/en-us/watches/datejust">Rolex Datejust</a></td>
+            <td>$11,500 (est.)</td>
+            <td class="ethPrice">Loading...</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.cars.com/shopping/results/?dealer_id=&keyword=&list_price_max=&list_price_min=&makes[]=honda&mileage_max=&models[]=honda-civic&monthly_payment=&page_size=20&sort=list_price&stock_type=all&year_max=&year_min=2024">2024 Honda Civic</a></td>
+            <td>$25,000</td>
+            <td class="ethPrice">Loading...</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="tweet"> <p>Inspired by <a href="https://twitter.com/RetardedATH/status/1772367626074837417">this</a> tweet.</p> </div>
+
+      <div class="nfa"> 
+        <p>ETH Price is fetched from CoinGecko</p> 
+        <p>None of this is financial advice. The price of cryptocurrencies can be extremely volatile.</p>
+      </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
