@@ -2,6 +2,8 @@ simple website that calculates the pricing of various items in ethereum.
 
 built w/ html and a single js script that calls a crypto pricing website to get current price of eth.
 
+3/25/2024: deployed at https://ethrates.net/ :)
+
 ----------------------------------------------------------------------------------------------------------------
 
 as chronically online crypto users, we often lose sight of how much money we are handling on a day-to-day basis.
